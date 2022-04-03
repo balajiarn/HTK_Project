@@ -7,6 +7,7 @@ void main()
 	{
 		// turn on the LED
 		_pa6 = 1;
+		// set delay to 500 ms
 		GCC_DELAY(500);
 		// trun off the LED
 		_pa6 = 0;
