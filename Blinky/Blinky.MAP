@@ -1,0 +1,63 @@
+
+Linker Version 8.7.7.211123
+Input Object File: C:\Users\Balaji\Documents\HTK_Project\Blinky\BLINKY.OBJ
+Input Object File: C:\Users\Balaji\Documents\HTK_Project\Blinky\STARTUP1.OBJ
+
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_srsc.lib
+
+
+     Start     End      Length     Class    AvgIns    Name
+     0000h     0000h    0001h      CODE               @code (C:\Users\Balaji\Documents\HTK_Project\Blinky\BLINKY.OBJ)
+     0001h     0001h    0001h      CODE               @start (C:\Users\Balaji\Documents\HTK_Project\Blinky\BLINKY.OBJ)
+     0002h     0007h    0006h      CODE               _main (C:\Users\Balaji\Documents\HTK_Project\Blinky\BLINKY.OBJ)
+     0008h     0011h    000ah      CODE               __DELAYX (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+
+     Local Sections
+
+     Start     End      Length     Class    AvgIns    Name
+     0040h     0040h    0000h      LOCAL    0         @dummy (C:\Users\Balaji\Documents\HTK_Project\Blinky\BLINKY.OBJ)
+     0040h     0040h    0000h      LOCAL    0         _main (C:\Users\Balaji\Documents\HTK_Project\Blinky\BLINKY.OBJ)
+     0040h     0040h    0000h      LOCAL    0         __DELAYX (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+
+     Public Symbols Information
+     Address            Public by Name
+     000eh              __DELAYX0
+     000dh              __DELAYX1
+     000ch              __DELAYX2
+     000bh              __DELAYX3
+     000ah              __DELAYX4
+     0009h              __DELAYX5
+     0008h              __DELAYX6
+     0002h              _main
+
+     Address            Public by Value
+     0002h              _main
+     0008h              __DELAYX6
+     0009h              __DELAYX5
+     000ah              __DELAYX4
+     000bh              __DELAYX3
+     000ch              __DELAYX2
+     000dh              __DELAYX1
+     000eh              __DELAYX0
+
+
+ROM Usage Statistics
+     Size      Used     Percentage
+     0400h     0012h    1%
+
+RAM Usage Statistics
+     Size      Used     Percentage
+     0040h     0000h    0%
+
+Use Stack Count
+_main: 1
+
+Call Tree
+    @dummy
+        _main (0)
+            __DELAYX (1)
+
+HLINK: Program entry point at section '@code' (address 0) of file 'C:\Users\Balaji\Documents\HTK_Project\Blinky\BLINKY.OBJ'
+
+Total 0 error(s), Total 0 Warning(s)
