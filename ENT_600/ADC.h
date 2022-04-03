@@ -7,6 +7,9 @@
 #define AN2 	2
 #define AN3 	3
 
+// we are using AVDD as reference
+// AVDD == VDD
+#define ADC_REF_VOLTAGE_V	5
 /* initialize the ADC clock, reference
    data format */
 void initADC();
