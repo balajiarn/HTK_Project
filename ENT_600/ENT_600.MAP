@@ -14,79 +14,85 @@ Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x
      0010h     0038h    0029h      CODE               @ROMDATA_BASE (C:\Users\Balaji\Documents\HTK_Project\ENT_600\STARTUP1.OBJ)
      0039h     0084h    004ch      CODE               _looupIndex (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ENT_600.OBJ)
      0085h     00bbh    0037h      CODE               _setState (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ENT_600.OBJ)
-     00bch     00f1h    0036h      CODE               _readVoltage (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ENT_600.OBJ)
-     00f2h     00feh    000dh      CODE               _initIO (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ENT_600.OBJ)
-     00ffh     0146h    0048h      CODE               _main (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ENT_600.OBJ)
-     0147h     0149h    0003h      CODE               _startConversion (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ADC.OBJ)
-     014ah     014bh    0002h      CODE               _disableADC (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ADC.OBJ)
-     014ch     0157h    000ch      CODE               _setADCChannel (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ADC.OBJ)
-     0158h     0161h    000ah      CODE               _initADC (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ADC.OBJ)
-     0162h     0190h    002fh      CODE               _readADC (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ADC.OBJ)
-     0191h     019ah    000ah      CODE               __DELAYX (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
-     019bh     01a8h    000eh      CODE               _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
-     01a9h     01abh    0003h      CODE               _CROM2PROM (CROM2PROM)
+     00bch     00ech    0031h      CODE               _readVoltage (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ENT_600.OBJ)
+     00edh     00f9h    000dh      CODE               _initIO (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ENT_600.OBJ)
+     00fah     0141h    0048h      CODE               _main (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ENT_600.OBJ)
+     0142h     0144h    0003h      CODE               _startConversion (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ADC.OBJ)
+     0145h     0146h    0002h      CODE               _disableADC (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ADC.OBJ)
+     0147h     0152h    000ch      CODE               _setADCChannel (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ADC.OBJ)
+     0153h     015ch    000ah      CODE               _initADC (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ADC.OBJ)
+     015dh     018bh    002fh      CODE               _readADC (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ADC.OBJ)
+     018ch     0195h    000ah      CODE               __DELAYX (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     0196h     01a3h    000eh      CODE               _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     01a4h     01c2h    001fh      CODE               _builtin_holtek_mulsi3_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     01c3h     01c5h    0003h      CODE               _CROM2PROM (CROM2PROM)
      0040h     0067h    0028h      DATA     0         @HCCINIT (C:\Users\Balaji\Documents\HTK_Project\ENT_600\STARTUP1.OBJ)
      0068h     0068h    0001h      DATA     34        @data_ra (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
-     0069h     0069h    0001h      DATA     31        @data_rb (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
-     006ah     006ah    0001h      DATA     30        @data_rc (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
-     006bh     006bh    0001h      DATA     26        @data_rd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
-     006ch     006ch    0001h      DATA     22        @data_re (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
-     006dh     006dh    0001h      DATA     2         @data_rf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     0069h     0069h    0001h      DATA     22        @data_rb (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     006ah     006ah    0001h      DATA     16        @data_rc (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     006bh     006bh    0001h      DATA     24        @data_rd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     006ch     006ch    0001h      DATA     21        @data_re (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     006dh     006dh    0001h      DATA     6         @data_rf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     006eh     006eh    0001h      DATA     4         @data_rg (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
 
      Local Sections
 
      Start     End      Length     Class    AvgIns    Name
-     0074h     0074h    0000h      LOCAL    0         @dummy (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ENT_600.OBJ)
-     0072h     0073h    0002h      LOCAL    6         _main (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ENT_600.OBJ)
-     0070h     0070h    0000h      LOCAL    0         _initIO (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ENT_600.OBJ)
-     006eh     006fh    0002h      LOCAL    8.5       _setState (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ENT_600.OBJ)
-     006eh     006eh    0000h      LOCAL    0         _initADC (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ADC.OBJ)
-     006eh     006eh    0000h      LOCAL    0         _disableADC (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ADC.OBJ)
-     006eh     006eh    0001h      LOCAL    2         _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
-     006eh     006eh    0000h      LOCAL    0         __DELAYX (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
-     0072h     0072h    0000h      LOCAL    0         _readVoltage (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ENT_600.OBJ)
-     006fh     0071h    0003h      LOCAL    2.3333    _readADC (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ADC.OBJ)
-     006eh     006eh    0001h      LOCAL    2         _setADCChannel (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ADC.OBJ)
-     006eh     006eh    0000h      LOCAL    0         _startConversion (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ADC.OBJ)
-     006eh     006fh    0002h      LOCAL    3         _looupIndex (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ENT_600.OBJ)
-     006eh     006eh    0000h      LOCAL    0         _Crom2Prom (CROM2PROM)
+     007dh     007dh    0000h      LOCAL    0         @dummy (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ENT_600.OBJ)
+     007bh     007ch    0002h      LOCAL    6         _main (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ENT_600.OBJ)
+     0071h     0071h    0000h      LOCAL    0         _initIO (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ENT_600.OBJ)
+     006fh     0070h    0002h      LOCAL    8.5       _setState (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ENT_600.OBJ)
+     006fh     006fh    0000h      LOCAL    0         _initADC (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ADC.OBJ)
+     006fh     006fh    0000h      LOCAL    0         _disableADC (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ADC.OBJ)
+     006fh     006fh    0001h      LOCAL    2         _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     006fh     006fh    0000h      LOCAL    0         __DELAYX (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     007bh     007bh    0000h      LOCAL    0         _readVoltage (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ENT_600.OBJ)
+     0070h     0072h    0003h      LOCAL    2.3333    _readADC (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ADC.OBJ)
+     006fh     006fh    0001h      LOCAL    2         _setADCChannel (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ADC.OBJ)
+     006fh     006fh    0000h      LOCAL    0         _startConversion (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ADC.OBJ)
+     006fh     007ah    000ch      LOCAL    3.0833    _builtin_holtek_mulsi3_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     006fh     0070h    0002h      LOCAL    3         _looupIndex (C:\Users\Balaji\Documents\HTK_Project\ENT_600\ENT_600.OBJ)
+     006fh     006fh    0000h      LOCAL    0         _Crom2Prom (CROM2PROM)
 
      Public Symbols Information
      Address            Public by Name
-     01aah              _Crom2Prom
-     01a9h              _Crom2PromNext
-     0197h              __DELAYX0
-     0196h              __DELAYX1
-     0195h              __DELAYX2
-     0194h              __DELAYX3
-     0193h              __DELAYX4
-     0192h              __DELAYX5
-     0191h              __DELAYX6
-     01a0h              __DELAYY0_isr00
-     019fh              __DELAYY1_isr00
-     019eh              __DELAYY2_isr00
-     019dh              __DELAYY3_isr00
-     019ch              __DELAYY4_isr00
-     019bh              __DELAYY5_isr00
-     014ah              _disableADC
-     0158h              _initADC
-     00f2h              _initIO
+     01c4h              _Crom2Prom
+     01c3h              _Crom2PromNext
+     0192h              __DELAYX0
+     0191h              __DELAYX1
+     0190h              __DELAYX2
+     018fh              __DELAYX3
+     018eh              __DELAYX4
+     018dh              __DELAYX5
+     018ch              __DELAYX6
+     019bh              __DELAYY0_isr00
+     019ah              __DELAYY1_isr00
+     0199h              __DELAYY2_isr00
+     0198h              __DELAYY3_isr00
+     0197h              __DELAYY4_isr00
+     0196h              __DELAYY5_isr00
+     01a4h              _builtin_holtek_mulsi3_isr00
+     0073h              _builtin_holtek_mulsi3_isr00_2
+     0145h              _disableADC
+     0153h              _initADC
+     00edh              _initIO
      0040h              _lookupTable
      0039h              _looupIndex
-     006eh              _looupIndex_2
-     00ffh              _main
+     006fh              _looupIndex_2
+     00fah              _main
      0001h              _main_startup
-     0162h              _readADC
+     015dh              _readADC
      00bch              _readVoltage
-     014ch              _setADCChannel
+     0147h              _setADCChannel
      0085h              _setState
-     0147h              _startConversion
+     0142h              _startConversion
      0068h              ra
      0069h              rb
      006ah              rc
      006bh              rd
      006ch              re
      006dh              rf
+     006eh              rg
 
      Address            Public by Value
      0001h              _main_startup
@@ -98,41 +104,44 @@ Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x
      006bh              rd
      006ch              re
      006dh              rf
-     006eh              _looupIndex_2
+     006eh              rg
+     006fh              _looupIndex_2
+     0073h              _builtin_holtek_mulsi3_isr00_2
      0085h              _setState
      00bch              _readVoltage
-     00f2h              _initIO
-     00ffh              _main
-     0147h              _startConversion
-     014ah              _disableADC
-     014ch              _setADCChannel
-     0158h              _initADC
-     0162h              _readADC
-     0191h              __DELAYX6
-     0192h              __DELAYX5
-     0193h              __DELAYX4
-     0194h              __DELAYX3
-     0195h              __DELAYX2
-     0196h              __DELAYX1
-     0197h              __DELAYX0
-     019bh              __DELAYY5_isr00
-     019ch              __DELAYY4_isr00
-     019dh              __DELAYY3_isr00
-     019eh              __DELAYY2_isr00
-     019fh              __DELAYY1_isr00
-     01a0h              __DELAYY0_isr00
-     01a9h              _Crom2PromNext
-     01aah              _Crom2Prom
+     00edh              _initIO
+     00fah              _main
+     0142h              _startConversion
+     0145h              _disableADC
+     0147h              _setADCChannel
+     0153h              _initADC
+     015dh              _readADC
+     018ch              __DELAYX6
+     018dh              __DELAYX5
+     018eh              __DELAYX4
+     018fh              __DELAYX3
+     0190h              __DELAYX2
+     0191h              __DELAYX1
+     0192h              __DELAYX0
+     0196h              __DELAYY5_isr00
+     0197h              __DELAYY4_isr00
+     0198h              __DELAYY3_isr00
+     0199h              __DELAYY2_isr00
+     019ah              __DELAYY1_isr00
+     019bh              __DELAYY0_isr00
+     01a4h              _builtin_holtek_mulsi3_isr00
+     01c3h              _Crom2PromNext
+     01c4h              _Crom2Prom
 
 Warning(L3015) : The number of '_main' CMG layers exceeds stack level
 
 ROM Usage Statistics
      Size      Used     Percentage
-     0400h     01ach    41%
+     0400h     01c6h    44%
 
 RAM Usage Statistics
      Size      Used     Percentage
-     0040h     0034h    81%
+     0040h     003dh    95%
 
 Use Stack Count
 _main: 3
@@ -151,6 +160,7 @@ Call Tree
                     _setADCChannel (3)
                     _startConversion (3)
                     _disableADC (3)
+                _builtin_holtek_mulsi3_isr00 (2)
             _looupIndex (1)
                 _Crom2Prom (2)
                 _Crom2Prom (2)

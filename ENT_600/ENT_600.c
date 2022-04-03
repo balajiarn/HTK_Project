@@ -86,7 +86,7 @@ int readVoltage()
 	// read data from ADC
 	int data = readADC(VOLTAGE_PIN);
 	// 1024 = 2 ^ 10, ie 10 bit ADC
-	voltage = ((data * VOLTAGE_SCALING_FACTOR) / 1024) * ADC_REF_VOLTAGE_V;
+	voltage = (((unsigned long int)data * VOLTAGE_SCALING_FACTOR * ADC_REF_VOLTAGE_V) / 1024);
 	return voltage;
 }
 
